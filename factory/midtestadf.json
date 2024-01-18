@@ -1,0 +1,9 @@
+{
+	"name": "midtestadf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9c2dad76-3e06-409a-8cda-a80c71329fee",
+		"tenantId": "76015437-c81b-4212-bb16-d81ed693aa5f"
+	}
+}
