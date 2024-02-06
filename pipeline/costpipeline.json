@@ -7,7 +7,7 @@
 				"type": "WebActivity",
 				"dependsOn": [
 					{
-						"activity": "Copy data1",
+						"activity": "Copy data",
 						"dependencyConditions": [
 							"Failed"
 						]
@@ -22,8 +22,8 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"url": "https://prod-72.eastus.logic.azure.com:443/workflows/8c5d8b840b9245499f1fedd9bc99a49c/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=8GabjI4QnbFqlNTxXrzIWfkW8medd0ApDAB-Wadys_E",
 					"method": "POST",
+					"url": "https://prod-72.eastus.logic.azure.com:443/workflows/8c5d8b840b9245499f1fedd9bc99a49c/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=8GabjI4QnbFqlNTxXrzIWfkW8medd0ApDAB-Wadys_E",
 					"body": {
 						"ErrorMessage": "This is a custom dynamic message from your pipeline with run ID @{pipeline().RunId}.",
 						"Subject": "Error in a getting keys",
@@ -34,7 +34,7 @@
 				}
 			},
 			{
-				"name": "Copy data1",
+				"name": "Copy data",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
